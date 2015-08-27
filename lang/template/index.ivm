@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>{titulo}</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+<div id="ionic-header"> <!--Just released! Check out--> </div>
+<header id="cta" class="background-showcase">
+<div class="navbar">
+	<div class="container">
+	<!-- Place everything within .nav-collapse to hide it until above 768px -->
+	  <div class="nav-collapse collapse navbar-responsive-collapse">
+		<ul class="nav navbar-nav pull-right">
+		  <li class=""><a href="#">Tour</a></li>
+		  <li class=""><a href="#">Pricing</a></li>
+		  <li class=""><a href="#">Customers</a></li>
+		  <li><a href="#">Blog</a></li>	  
+		  <li class="button"><a href="#login">Sign in</a></li>
+		</ul>
+	  </div><!-- /.nav-collapse -->
+	</div>
+</div>
+<div class="container">
+	
+	<div id="cta-text" class="row">
+		<div class="col-lg-6">
+			<h1>Build jQuery Mobile<br> apps, the easy way.</h1>
+			<p class="lead">
+			mobb is a powerful drag-and-drop builder for<br> creating cross-platform HTML5 mobile apps and<br>
+			websites. It's simple,
+			easy to use, and <strong>so damn useful</strong>.
+			</p>
+			<p id="button-row">
+			<a href="#desktop" class="btn btn-large btn-success proxima-bold">Get started now!</a><a id="try-demo" href="#demo" target="_blank"></a>
+			</p>
+		</div>
+		<div class="col-lg-6"></div>
+	</div>
+</div>
+</header>
+<!--contenedor-->
+<div class="bs-docs-featurette">
+  <div id="separator"></div>
+  <div class="container">
+    <h2 class="bs-docs-featurette-title">Designed for everyone, everywhere.</h2>
+    <p class="lead">Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.</p>
+
+    <hr class="half-rule">
+
+    <div class="row">
+      <div class="col-sm-4">
+        <!--img src="assets/img/sass-less.png" alt="Sass and Less support" class="img-responsive"-->
+        <h3>Preprocessors</h3>
+        <p>In addition to vanilla CSS, Bootstrap includes support for the two most popular CSS preprocessors, <a href="../css/#less">Less</a> and <a href="../css/#sass">Sass</a>.</p>
+      </div>
+      <div class="col-sm-4">
+        <!--img src="assets/img/devices.png" alt="Responsive across devices" class="img-responsive"-->
+        <h3>One framework, every device.</h3>
+        <p>Bootstrap easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+      </div>
+      <div class="col-sm-4">
+        <!--img src="assets/img/components.png" alt="Components" class="img-responsive"-->
+        <h3>Comprehensive docs</h3>
+        <p>With Bootstrap, you get extensive and beautiful documentation with hundreds of live examples, code snippets, and more.</p>
+      </div>
+    </div>
+    <hr class="half-rule">
+    <p class="lead">Bootstrap is open source. It's hosted, developed, and maintained on GitHub.</p>
+  </div>
+</div>
+<!--termina el body contenedor-->
+<footer>
+	<div>
+		<div class="collapse navbar-collapse foot_bg" id="footer-navbar">
+			<ul class="nav navbar-nav navbar-left footer__links--social">
+				<li>
+					<a href="http://freshout.us/" class="bzicon bzicon-freshout" title="Made by Freshout" target="_blank">
+					<i></i>
+					</a>
+				</li>
+				<li>
+					<a href="mailto:hi@freshout.us" class="bzicon bzicon-envelope" title="Email Us @Breezi" target="_blank">
+					<i></i>
+					</a>
+				</li>
+				<li>
+					<a href="http://twitter.com/breeziapp" class="bzicon bzicon-twitter" title="Follow @Breeziapp on Twitter" target="_blank">
+					<i></i>
+					</a>
+				</li>
+				<li>
+					<a href="http://www.facebook.com/breeziapp" class="bzicon bzicon-facebook" title="Like Breezi on Facebook" target="_blank">
+					<i></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://plus.google.com/106706184949907691639/" class="bzicon bzicon-gplus" title="Follow @Breeziapp on GPlus" target="_blank">
+					<i></i>
+					</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right footer__links--nav foot_copyrigth">
+				<li class="dropdown">
+					<span> &copy; 2014 xxxx Media, Inc. All Rights Reserved. </span>
+				</li>
+				<li>&nbsp;</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+</body>
+
+</html>

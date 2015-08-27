@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<road>
+    <load>
+        <title>localhost</title>
+        <url>C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\test_sitios\sitobase</url>
+        <info>Local access windows</info>
+    </load>
+	<!--<load>
+        <title>localhost</title>
+        <url>C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\sitio_base</url>
+        <info>Local access linux</info>
+    </load>-->
+	<load>
+        <title>server</title>
+        <url>http://www.server.com</url>
+        <info>Server access</info>
+    </load>
+</road>

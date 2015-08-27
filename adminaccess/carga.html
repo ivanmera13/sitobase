@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+	<script language="javascript">/*
+var fecha = new Date();
+alert("Día: "+fecha.getDate()+"\nMes: "+(fecha.getMonth()+1)+"\nAño: "+fecha.getFullYear());*/
+</script>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+	Noticias
+	<br>
+	<input type="text" name="title" />
+	<br><br>
+	<textarea rows="4" cols="50" name="text_area"></textarea>
+	<br><br>Caregory
+	<select name="category">
+	  <option value="0">Select any option</option> 
+	  <option value="1">valor categoria 1</option>
+	</select>
+	<br><br>
+	<br><br>
+	<select name="type_publish">
+	  <option value="none">Select any option</option> 
+	  <option value="draft">Draft</option>
+	  <option value="publish">Publish</option>
+	</select>
+	<br><br>
+	<input type="hidden" value="postArticle" name="hidden" />
+<input type="submit" />
+</form>
+<hr />
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+	product Noticias
+	<br />
+	categoria<input type="text" name="category" /><br>
+	<input type="hidden" value="setCategoriNews" name="hidden" />
+	<input type="submit" />
+</form>
+
+<hr />
+</body>
+</html>
